@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Notes Manager</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/h8k-design@latest/dist/index.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="https://cdn.jsdelivr.net/npm/h8k-design@latest/dist/assets/favicon.ico"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/h8k-components/dist/h8k-components/h8k-components.esm.js"
+      type="module"
+    ></script>
+    <script
+      nomodule
+      src="https://cdn.jsdelivr.net/npm/h8k-components/dist/h8k-components/h8k-components.js"
+    ></script>
+    <h8k-navbar header="Notes Manager"></h8k-navbar>
+  </head>
+  <body>
+    <div class="layout-column align-items-center justify-content-start">
+      <section
+        class="layout-row align-items-center justify-content-center mt-30"
+      >
+        <input
+          data-testid="input-note-name"
+          id="input-title"
+          type="text"
+          class="large mx-8"
+          placeholder="Note Title"
+        />
+        <input
+          data-testid="input-note-status"
+          id="input-status"
+          type="text"
+          class="large mx-8"
+          placeholder="Note Status"
+        />
+        <button id="submit-button" data-testid="submit-button">Add Note</button>
+      </section>
+
+      <div class="mt-50">
+        <ul class="tabs">
+          <button class="tab-item slide-up-fade-in" data-testid="allButton">
+            All
+          </button>
+          <button class="tab-item slide-up-fade-in" data-testid="activeButton">
+            Active
+          </button>
+          <button
+            class="tab-item slide-up-fade-in"
+            data-testid="completedButton"
+          >
+            Completed
+          </button>
+        </ul>
+      </div>
+
+      <div class="card w-40 pt-30 pb-8">
+        <table>
+          <thead>
+            <tr>
+              <th>Title</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody data-testid="noteList" id="notes-list"></tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+
+  <!-- HMR and test infrastructure - DO NOT EDIT -->
+  <script src="./bundle.js"></script>
+</html>

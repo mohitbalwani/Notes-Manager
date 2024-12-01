@@ -1,0 +1,37 @@
+{
+    "name": "vanillajs-notes-manager",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+      "prestart": "npm install",
+      "build": "webpack --config webpack.config.js",
+      "pretest": "npm install && npm run build",
+      "start": "node app.js",
+      "test": "jest --ci --testResultsProcessor=jest-junit"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.21.8",
+      "@babel/preset-env": "^7.21.5",
+      "@testing-library/dom": "^9.2.0",
+      "@testing-library/jest-dom": "^5.16.5",
+      "babel-jest": "^29.5.0",
+      "css-loader": "^6.7.3",
+      "jest": "^29.5.0",
+      "jest-junit": "^16.0.0",
+      "jsdom": "^22.0.0",
+      "request": "^2.88.2",
+      "style-loader": "^3.3.2",
+      "webpack": "^5.82.0",
+      "webpack-cli": "^4.0.4",
+      "webpack-dev-middleware": "^6.1.0",
+      "webpack-hot-middleware": "^2.25.3"
+    },
+    "dependencies": {
+      "express": "~4.18.2",
+      "h8k-components": "^1.0.0",
+      "h8k-design": "^1.0.16",
+      "jest-environment-jsdom": "^29.5.0",
+      "regenerator-runtime": "^0.13.11"
+    }
+  }
+  

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="5" failures="3" errors="0" time="4.266">
+  <testsuite name="Notes Manager App 
+" errors="0" failures="3" skipped="0" timestamp="2024-11-30T15:41:18" time="4.23" tests="5">
+    <testcase classname="Notes Manager App 
+ initial UI is rendered as expected and button works" name="Notes Manager App 
+ initial UI is rendered as expected and button works" time="0.258">
+      <failure>Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: 0
+Received: 1
+    at Object.toBe (/Users/mbalwani/Projects/Notes Manager/test/test.js:48:38)
+    at Promise.then.completed (/Users/mbalwani/Projects/Notes Manager/node_modules/jest-circus/build/utils.js:298:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/Users/mbalwani/Projects/Notes Manager/node_modules/jest-circus/build/utils.js:231:10)
+    at _callCircusTest (/Users/mbalwani/Projects/Notes Manager/node_modules/jest-circus/build/run.js:316:40)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at _runTest (/Users/mbalwani/Projects/Notes Manager/node_modules/jest-circus/build/run.js:252:3)
+    at _runTestsForDescribeBlock (/Users/mbalwani/Projects/Notes Manager/node_modules/jest-circus/build/run.js:126:9)
+    at _runTestsForDescribeBlock (/Users/mbalwani/Projects/Notes Manager/node_modules/jest-circus/build/run.js:121:9)
+    at run (/Users/mbalwani/Projects/Notes Manager/node_modules/jest-circus/build/run.js:71:3)
+    at runAndTransformResultsToJestFormat (/Users/mbalwani/Projects/Notes Manager/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
+    at jestAdapter (/Users/mbalwani/Projects/Notes Manager/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/Users/mbalwani/Projects/Notes Manager/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/Users/mbalwani/Projects/Notes Manager/node_modules/jest-runner/build/runTest.js:444:34)</failure>
+    </testcase>
+    <testcase classname="Notes Manager App 
+ button adds notes" name="Notes Manager App 
+ button adds notes" time="0.094">
+    </testcase>
+    <testcase classname="Notes Manager App 
+ Multiple notes can be added" name="Notes Manager App 
+ Multiple notes can be added" time="0.096">
+      <failure>Error: expect(element).toHaveTextContent()
+
+Expected element to have text content:
+  Movie
+Received:
+  Study
+    at Object.toHaveTextContent (/Users/mbalwani/Projects/Notes Manager/test/test.js:92:46)
+    at Promise.then.completed (/Users/mbalwani/Projects/Notes Manager/node_modules/jest-circus/build/utils.js:298:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/Users/mbalwani/Projects/Notes Manager/node_modules/jest-circus/build/utils.js:231:10)
+    at _callCircusTest (/Users/mbalwani/Projects/Notes Manager/node_modules/jest-circus/build/run.js:316:40)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at _runTest (/Users/mbalwani/Projects/Notes Manager/node_modules/jest-circus/build/run.js:252:3)
+    at _runTestsForDescribeBlock (/Users/mbalwani/Projects/Notes Manager/node_modules/jest-circus/build/run.js:126:9)
+    at _runTestsForDescribeBlock (/Users/mbalwani/Projects/Notes Manager/node_modules/jest-circus/build/run.js:121:9)
+    at run (/Users/mbalwani/Projects/Notes Manager/node_modules/jest-circus/build/run.js:71:3)
+    at runAndTransformResultsToJestFormat (/Users/mbalwani/Projects/Notes Manager/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
+    at jestAdapter (/Users/mbalwani/Projects/Notes Manager/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/Users/mbalwani/Projects/Notes Manager/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/Users/mbalwani/Projects/Notes Manager/node_modules/jest-runner/build/runTest.js:444:34)</failure>
+    </testcase>
+    <testcase classname="Notes Manager App 
+ Switching between buttons work" name="Notes Manager App 
+ Switching between buttons work" time="0.079">
+      <failure>Error: expect(element).toHaveTextContent()
+
+Expected element to have text content:
+  Movie
+Received:
+  Study
+    at Object.toHaveTextContent (/Users/mbalwani/Projects/Notes Manager/test/test.js:147:46)
+    at Promise.then.completed (/Users/mbalwani/Projects/Notes Manager/node_modules/jest-circus/build/utils.js:298:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/Users/mbalwani/Projects/Notes Manager/node_modules/jest-circus/build/utils.js:231:10)
+    at _callCircusTest (/Users/mbalwani/Projects/Notes Manager/node_modules/jest-circus/build/run.js:316:40)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at _runTest (/Users/mbalwani/Projects/Notes Manager/node_modules/jest-circus/build/run.js:252:3)
+    at _runTestsForDescribeBlock (/Users/mbalwani/Projects/Notes Manager/node_modules/jest-circus/build/run.js:126:9)
+    at _runTestsForDescribeBlock (/Users/mbalwani/Projects/Notes Manager/node_modules/jest-circus/build/run.js:121:9)
+    at run (/Users/mbalwani/Projects/Notes Manager/node_modules/jest-circus/build/run.js:71:3)
+    at runAndTransformResultsToJestFormat (/Users/mbalwani/Projects/Notes Manager/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
+    at jestAdapter (/Users/mbalwani/Projects/Notes Manager/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/Users/mbalwani/Projects/Notes Manager/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/Users/mbalwani/Projects/Notes Manager/node_modules/jest-runner/build/runTest.js:444:34)</failure>
+    </testcase>
+    <testcase classname="Notes Manager App 
+ In active tab, dont show completed notes" name="Notes Manager App 
+ In active tab, dont show completed notes" time="0.084">
+    </testcase>
+  </testsuite>
+</testsuites>
